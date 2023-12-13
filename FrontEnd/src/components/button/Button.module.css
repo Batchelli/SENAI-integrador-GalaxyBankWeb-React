@@ -1,0 +1,20 @@
+.btn {
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 10%;
+}
+
+.btn:hover {
+    background-color: #421a6d;
+    cursor: pointer;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

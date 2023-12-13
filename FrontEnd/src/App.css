@@ -1,0 +1,9 @@
+
+body{
+  background-color: white;
+  flex: 1 0 auto;
+}
+
+.input{
+  padding: 100px;
+}

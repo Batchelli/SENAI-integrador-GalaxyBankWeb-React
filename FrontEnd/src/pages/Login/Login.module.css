@@ -1,0 +1,104 @@
+.container {
+    background: rgba(27, 14, 41, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 600px;
+    box-shadow: 0 0 25px 10px #2c005e;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/Bg/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img {
+    padding-top: 10%;
+    width: 35%;
+    height: auto;
+    padding-bottom: 6%;
+}
+
+.inp {
+    padding: 7.5px;
+    width: 70%;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+}
+
+.link{
+    text-decoration: none;    
+}
+
+.icon {
+    color: white;
+    position: absolute;
+    padding-top: 2.5%;
+}
+
+.remember {
+    padding-top: 5%;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.remember p:hover {
+    color: #8e55ca;
+    cursor: pointer;
+}
+
+.check {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.cad {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aLink {
+    padding-top: 5px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.aLink:hover {
+    color: #8e55ca;
+    cursor: pointer;
+}
+
+.ml:hover {
+    color: #8e55ca;
+    cursor: pointer;
+}

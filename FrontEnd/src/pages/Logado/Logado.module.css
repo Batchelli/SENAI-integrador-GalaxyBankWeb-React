@@ -1,0 +1,156 @@
+.container {
+    width: 100%;
+    background-image: url('../../assets/Bg/bg.svg');
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 15px;
+}
+
+.userArea {
+    padding-top: 105px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userCont {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user {
+    background-color: #0B0531;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 25px;
+    border: 2px solid #8818C0;
+}
+
+.userHistory {
+    background-color: #0B0531;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    border-radius: 25px;
+    border: 2px solid #8818C0;
+    flex-direction: column;
+}
+
+#name {
+    color: white;
+    padding: 0px 0px 15px 25px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+}
+
+#saldo {
+    color: white;
+    padding: 0px 0px 0px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.imgArea{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.transCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#transf {
+    color: white;
+}
+
+.teste2 {
+    color: white;
+}
+
+.teste {
+    color: white;
+    display: flex;
+    justify-content: start;
+    width: 100px;
+}
+
+.history {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #8818C0;
+    border-left: 1px solid #8818C0;
+    border-radius: 5px;
+}
+
+.icon {
+    color: white;
+    position: absolute;
+}
+
+.inp {
+    padding: 0 0 0 25px;
+    border-color: transparent;
+    width: 100%;
+    background-color: transparent;
+    outline: 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.btnArea{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height: 50px;
+    width: 100px;
+    border: transparent;
+    border-radius: 10px;
+    border: 2px solid #8818C0;
+    background-color: #110947;
+    color: white;
+    transition: 150ms;
+}
+
+.btn:hover{
+    transition: 150ms;
+    height: 53px;
+    width: 103px;
+    cursor: pointer;
+    background-color: #190e5f;
+}

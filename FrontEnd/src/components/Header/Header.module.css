@@ -1,0 +1,96 @@
+.Bg {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(11, 5, 49, .8);
+    backdrop-filter: blur(4.5px);
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logoCont {
+    display: flex;
+    align-items: center;
+}
+
+.logoCont img {
+    width: 100%;
+    max-width: 80px;
+    /* Limit the maximum width of the logo */
+}
+
+.logoCont h1 {
+    font-size: 1.5rem;
+    /* Responsive font size */
+    margin-left: 10px;
+    /* Add some spacing between the logo and text */
+}
+
+.links {
+    flex-grow: 1;
+    /* Allow the links to take up remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.links h1 {
+    font-size: 1rem;
+    /* Responsive font size */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#login {
+    text-decoration: none;
+    color: white;
+}
+
+#login:hover {
+    color: #8e55ca;
+    cursor: pointer;
+}
+
+#oBanco {
+    color: white;
+    text-decoration: none;
+}
+
+#oBanco:hover {
+    color: #8e55ca;
+    cursor: pointer;
+}
+
+#logout:hover{
+    color: #8e55ca;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logoCont {
+        padding-bottom: 10px;
+        /* Add spacing between logo and links in mobile view */
+    }
+
+    .links {
+        margin-top: 10px;
+        /* Add spacing above links in mobile view */
+    }
+}

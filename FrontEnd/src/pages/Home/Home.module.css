@@ -1,0 +1,168 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.s1 {
+    background-image: url('../../assets/Bg/Bg2.svg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cont_cad {
+    margin-right: 10%;
+    background-color: rgba(38, 33, 88, 0.8);
+    backdrop-filter: blur(4.5px);
+    width: 80%;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.icon {
+    color: white;
+    position: absolute;
+    padding-top: 3%;
+}
+
+.inp {
+    width: 80%;
+}
+
+
+.btn {
+    padding-top: 5%;
+    width: 100%;
+    height: 50px;
+}
+
+.text {
+    width: 80%;
+    padding: 5%;
+    padding-top: 15%;
+}
+
+/* Seção 2 */
+.s2 {
+    background-image: url('../../assets/Bg/Bg3.jpg');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.contdesc1 {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imgmask img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.imgmask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc h1,
+h2,
+p {
+    margin: 0;
+}
+
+.desc strong {
+    text-decoration: underline;
+}
+
+.contS2 {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    backdrop-filter: blur(4.5px);
+    border-radius: 20px 60px 20px 60px;
+    margin: 20px auto;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#cad {
+    padding-top: 1%;
+    font-size: 12px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+    .s1,
+    .s2 {
+        justify-content: center;
+    }
+
+    .s1 {
+        padding-top: 50px;
+    }
+
+    .cont_cad {
+        margin: 10% 5%;
+        border-radius: 10px 50px 10px 50px;
+    }
+
+    .text {
+        padding-top: 10%;
+    }
+
+    .btn {
+        padding-top: 10%;
+    }
+
+    .imgmask {
+        width: 50%;
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 580px) {
+    .imgmask {
+        display: none;
+        /* Esconde o bloco .sla em telas menores ou iguais a 580px */
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .icon {
+        padding-top: 5%;
+    }
+
+}
